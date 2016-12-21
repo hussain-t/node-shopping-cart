@@ -11,7 +11,7 @@ var products = [
         price: 10
     }),
     new Product({
-        imagePath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg',
+        imagePath: 'http://images.sportsdirect.com/images/products/59200421_4pl.jpg',
         title: 'T-Shirt',
         description: 'Awesome Branded T-Shirt for Sale!!!',
         price: 10

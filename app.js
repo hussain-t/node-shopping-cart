@@ -12,6 +12,9 @@ var users = require('./routes/users');
 
 var app = express();
 
+//DB setup
+mongoose.connect('localhost:27017/shopping');
+
 // view engine setup
 //app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'}));
